@@ -3,7 +3,7 @@ import React, { useContext } from 'react'
 
 import FeedbackContext from '../context/FeedbackContext'
 function FeedbackStats() {
-  const { feedback, isLoading } = useContext(FeedbackContext)
+  const { feedback } = useContext(FeedbackContext)
   let average =
     feedback.reduce((acc, cur) => {
       return acc + cur.rating
