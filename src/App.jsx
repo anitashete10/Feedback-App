@@ -5,7 +5,7 @@ import FeedbackForm from './components/FeedbackForm'
 import FeedbackList from './components/FeedbackList'
 import FeedbackStats from './components/FeedbackStats'
 import Header from './components/Header'
-import {toast} from 'react-toastify'
+//import {toast} from 'react-toastify'
 
 import AboutPage from './page/AboutPage'
 import AboutLink from './components/AboutLink'
